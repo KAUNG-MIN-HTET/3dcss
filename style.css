@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
   background-color: #000;
   min-height: 100vh;
   display: -webkit-box;
@@ -46,7 +47,7 @@ body {
   height: 1em;
   border-radius: 50%;
   background: #81b2be;
-  animation: ballBounce 2s infinite ease-out, sceneRotate 20s infinite linear reverse;
+  animation: ballBounce 2s infinite ease-out, sceneRotate 20s linear infinite reverse;
   position: absolute;
   left: -0.5em;
   bottom: 1em;
